@@ -41,3 +41,4 @@ coronavirus %>%
 coronavirus %>%
   filter(country == "US" | country == "Canada" | country == "Mexico") %>%
   select(-date, -province, -lat, -long)
+
